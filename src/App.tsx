@@ -20,7 +20,7 @@ export function App() {
   return (
     <view className="body">
       <view className="calculator">
-        <text className="display">0</text>
+        <view className="display"><text>0</text></view>
         <view className="buttons">
           <view className="row">
             <view className="btn gray"><text>AC</text></view>
@@ -49,7 +49,7 @@ export function App() {
           <view className="row">
             <view className="btn zero"><text>0</text></view>
             <view className="btn"><text>.</text></view>
-            <view className="btn orange"><text>÷</text></view>
+            <view className="btn orange"><text>=</text></view>
           </view>
         </view>
       </view>

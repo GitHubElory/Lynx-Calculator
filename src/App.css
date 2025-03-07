@@ -27,15 +27,20 @@ body {
 }
 
 .display {
-  color: white;
   font-size: 8vw;
-  text-align: right;
   padding: 5%;
   height: 36%;
   display:flex;
   justify-content: flex-end;
   align-items: flex-end;
   background-color: black;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.display text {
+  color: white;
+  font-size: 14vw;
 }
 
 .buttons {
@@ -67,6 +72,11 @@ body {
 }
 
 .btn text {
+  color: white;
+  font-size: 8vw;
+}
+
+.btn.orange {
   color: white;
 }
 
